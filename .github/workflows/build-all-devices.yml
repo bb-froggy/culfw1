@@ -14,6 +14,10 @@ jobs:
     - name: Install AVR stuff
       run: sudo apt-get install make gcc-avr avrdude avr-libc
       
+    - name: Configure for CUR v3
+      run: |
+        cp culfw/Devices/CUR/board.mk.v3 culfw/Devices/CUR/board.mk
+
     - name: Compile the code
       run: |
         cd culfw/Devices
