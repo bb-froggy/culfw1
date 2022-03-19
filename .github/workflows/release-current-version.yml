@@ -28,7 +28,7 @@ jobs:
 
         # Now we do not have the ZIP anymore, so we must re-zip the extracted exe
       - name: ZIP files for download
-        run: zip --junk-paths culfw publish/*.hex
+        run: zip --recurse-patterns --junk-paths culfw.zip "*.hex"
     
       - name: Create tag
         id: create_tag
