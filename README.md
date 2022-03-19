@@ -4,7 +4,7 @@ The source code is cloned from https://sourceforge.net/projects/culfw/ via [svn2
 
 The culfw Homepage contains version 1.67, but that version misses a few changes made to the SVN repository afterwards. Especially WMBUS Type C.
 
-This GitHub repository contains an action compiling the source code to the hex files you can flash to your CUL. The latest version is available compiled as Release.
+This GitHub repository contains an action compiling the source code to the hex files you can flash to your CUL. The latest version (dubbed 1.68) as hex files is available for download as a [Release](https://github.com/bb-froggy/culfw1/releases/tag/20220319-1923-culfw).
 
 If you want to adapt some settings for your CUL, just fork the repository, edit the source files and run the action in your fork to get your own custom hex files.
 
